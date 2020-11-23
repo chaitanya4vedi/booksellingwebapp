@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d268e5b3-9cae-421f-9d4a-aa893905fdea" name="Default Changelist" comment="" />
+    <list default="true" id="d268e5b3-9cae-421f-9d4a-aa893905fdea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/BookSellingWebApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BookSellingWebApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JupyterTrust" id="6f2041de-837a-40dc-adb6-ace42e7e7d6d" />
   <component name="ProjectId" id="1kfzh8aHB4rxnEb4QndnETqElbR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,7 +37,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606106549697</updated>
-      <workItem from="1606106554246" duration="1932000" />
+      <workItem from="1606106554246" duration="8211000" />
+      <workItem from="1606128857455" duration="3568000" />
+      <workItem from="1606138250394" duration="297000" />
     </task>
     <servers />
   </component>

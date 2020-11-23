@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title></title>
   <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <meta property="og:title" content="">
   <meta property="og:type" content="">
@@ -20,14 +20,171 @@
   <link rel="stylesheet" href="css/main.css">
   <!-- Bootstrap -->
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
+<!-- Add your site or application content here -->
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #7b68ee">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      Alpha Book Store
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar"
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="Navbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">
+            <button class="btn active btn-outline-dark btn-block" type="button"><span
+              class="fa fa-home"></span>
+              Home
+            </button>
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <button class="btn btn-outline-dark btn-block" type="button"><span
+              class="fa fa-sign-in"></span>
+              Login </button>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <button class="btn btn-outline-dark btn-block" type="button"><span
+              class="fa fa-clock-o"></span>
+              Tracker </button>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="d-flex" id="wrapper">
+
+<!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading"><span class="fa fa-clock-o"></span> Tracker </div>
+      <div class="list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action bg-light">Demo</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Demo</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Demo</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Demo</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Demo</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Demo</a>
+      </div>
+    </div>
+
+  <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+  <!-- Card 1 goes here -->
+<div class="container" style="padding-top: 20px">
+   <div class="input-group md-form form-sm form-2 pl-0">
+      <input class="form-control my-0 py-1" type="text" placeholder="Search for Title, Author or Publisher....." aria-label="Search">
+      <div class="input-group-append">
+         <button class="btn btn-info" type="submit"><span class="fa fa-search"></span>Search</button>
+      </div>
+   </div>
+</div>
+<div class="container" style="padding-bottom: 20px; padding-top: 20px">
+   <div class="card text-center">
+      <div class="card-header bg-primary text-white"> <strong><span class="fa fa-star"></span> Kitab Exclusive</strong>  <small> 25% off</small>
+      </div>
+      <div class="card-body">
+         <h5 class="card-title"><img src="" alt="Title"></h5>
+         <div class="col-12">
+            <div class="table-responsive">
+               <table class="table table-hover">
+                  <thead>
+                     <tr>
+                        <th scope="col"><span class="fa fa-book"></span> Title</th>
+                        <th scope="col"><span class="fa fa-user"></span> Author</th>
+                        <th scope="col"><span class="fa fa-newspaper-o"></span> Publisher</th>
+                        <th scope="col"><span class="fa fa-money"></span> Price ₹</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td>5 AM Club</td>
+                        <td>
+                           <img src="" alt="Author" style="width: 50px">Robin Sharma
+                        </td>
+                        <td>Harper Collins</td>
+                        <td>500</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </div>
+         <p class="card-text"><span class="fa fa-quote-left"></span>  <i><strong>Own your morning. Elevate your life.<span class="fa fa-quote-right"></span></strong></i>
+            <br>Part manifesto for mastery, part playbook for genius-grade productivity and part companion for a life lived beautifully, the 5 am club is a work that will transform your life. Forever.Legendary leadership and elite performance expert Robin Sharma introduced The 5 AM Club concept over twenty years ago, based on a revolutionary morning routine that has helped his clients maximize their productivity, activate their best health and bulletproof their serenity in this age of overwhelming complexity.
+         </p>
+         <a href="#" class="btn btn-warning">ADD to Cart <span class="fa fa-cart-plus"></span></a>
+         <button data-toggle="modal" data-target="#orderModal" class="btn btn-success">ORDER <span class="fa fa-check"></span>
+         </button>
+      </div>
+      <div class="card-footer bg-dark text-white text-center">
+         <strong><span class="fa fa-truck"></span> 2 day delivery</strong>  <small>Guaranteed*</small>
+         <p2>Price includes GST*</p2>
+      </div>
+   </div>
+</div>
+
+<!-- Card 2 goes here -->
+<div class="container" style="padding-bottom: 20px; padding-top: 20px">
+   <div class="card text-center">
+      <div class="card-header bg-primary text-white"> <strong><span class="fa fa-star"></span> Kitab Exclusive</strong>  <small> 25% off</small>
+      </div>
+      <div class="card-body">
+         <h5 class="card-title"><img src="" alt="Title"></h5>
+         <div class="col-12">
+            <div class="table-responsive">
+               <table class="table table-hover">
+                  <thead>
+                     <tr>
+                        <th scope="col"><span class="fa fa-book"></span> Title</th>
+                        <th scope="col"><span class="fa fa-user"></span> Author</th>
+                        <th scope="col"><span class="fa fa-newspaper-o"></span> Publisher</th>
+                        <th scope="col"><span class="fa fa-money"></span> Price ₹</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td>Sacred Games</td>
+                        <td>
+                           <img src="" alt="Author" style="width: 50px">Vikram Chandra
+                        </td>
+                        <td>Harper Collins</td>
+                        <td>500</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </div>
+         <p class="card-text"><span class="fa fa-quote-left"></span>  <i><strong> Aaiyejhavnaya </strong></i><span class="fa fa-quote-right"></span>
+            <br>This is a sprawling, magnificent story of friendship and betrayal, of terrible violence, of an astonishing modern city and its dark side. Drawing on the best of Victorian fiction, mystery novels, Bollywood movies and Chandra’s years of first-hand research on the streets of Mumbai, Sacred Games reads like a pot boiling page-turner but resonates with the intelligence and emotional depth of the best of literature.
+         </p>
+         <a href="#" class="btn btn-warning">ADD to Cart <span class="fa fa-cart-plus"></span></a>
+         <a href="#" data-toggle="modal" data-target="#orderModal" class="btn btn-success">ORDER <span class="fa fa-check"></span></a>
+      </div>
+      <div class="card-footer bg-dark text-white text-center">
+         <strong><span class="fa fa-truck"></span> 2 day delivery</strong>  <small>Guaranteed*</small>
+         <p2>Price includes GST*</p2>
+      </div>
+   </div>
+</div>
+    </div>
+</div>
+
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
@@ -38,8 +195,9 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
+
   <!-- Bootstrap -->
-  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
   <script src="node_modules/popper.js/dist/popper.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
